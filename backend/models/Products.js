@@ -6,4 +6,4 @@ const productSchema=mongoose.Schema({
     description:String
 },{timestamps:true})
 
-module.exports=mongoose.model("Product",productSchema)
+module.exports=mongoose.model("Products",productSchema)
